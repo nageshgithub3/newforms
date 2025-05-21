@@ -1,0 +1,133 @@
+*{
+    @import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+    font-family: 'Samsung Sharp Sans', sans-serif;
+                                                
+}
+
+body{
+    background: #3218db;
+background: linear-gradient(90deg, rgba(50, 24, 219, 1) 0%, rgba(214, 111, 15, 1) 50%, rgba(14, 156, 227, 1) 82%, rgba(0, 212, 255, 1) 100%);
+    color: cornsilk;
+
+}
+
+#head:hover{
+background: #ed3e87;
+background: radial-gradient(circle, rgba(237, 62, 135, 1) 0%, rgba(236, 44, 125, 1) 11%, rgba(234, 18, 110, 1) 28%, rgba(245, 20, 117, 1) 53%, rgba(148, 187, 233, 1) 100%);
+background-clip: text;
+color: transparent;
+}
+
+#pd:hover{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 4%, rgba(94, 59, 10, 1) 83%);
+background-clip: text;
+color: transparent;
+}
+
+#cd:hover{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 4%, rgba(94, 59, 10, 1) 83%);
+background-clip: text;
+color: transparent;
+}
+form{
+    width: 500px;
+}
+
+fieldset{
+    border: 5px solid aqua;
+    border-radius: 20px;
+}
+
+input:required{
+    border: 2px solid red;
+}
+
+input:optional{
+    border: 2px solid green;
+    color: white;
+}
+
+input:read-only{
+    background-color: aqua;
+    color: white;
+}
+select{
+    background-color: purple;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]{
+    border: 3px solid gold;
+    border-radius: 2px;
+}
+
+input[type="reset"]{
+    border: 3px solid gold;
+    border-radius: 2px;
+}
+
+input[type="radio"]:checked{
+    height: 25px;
+    width: 25px;
+}
+
+input[type="radio"]:checked + label{
+    color: chocolate;
+}
+
+input:focus{
+    background-color: coral;
+}
+
+input[type="text"]+span{
+    display: none;
+     
+}
+
+span{
+    color: aqua;
+    border: 2px solid green;
+    background-color: black;
+    border-radius: 3px;
+}
+input[type="text"]:hover+span{
+    display: inline;
+    
+   
+}
+input[type="number"]+span{
+    display: none;
+     
+}
+
+input[type="number"]:hover+span{
+    display: inline;
+   
+}
+input[type="password"]+span{
+    display: none;
+     
+}
+
+input[type="password"]:hover+span{
+    display: inline;
+   
+}
+img{
+    display: None;
+}
+input[type="email"]:focus:valid~img#Valid{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    
+}
+input[type="email"]:focus:invalid~img#Invalid{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    
+}
+
